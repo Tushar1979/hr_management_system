@@ -1,6 +1,7 @@
 import "./App.css";
 import "./styles/css/all.css";
 import { SansCanvas } from "./common/SansCanvas";
+import SideMenu from './common/SideMenu';
 import axios from "axios";
 import {
 	BrowserRouter as Router,
@@ -28,6 +29,7 @@ function App() {
 					</Routes>
 				</Router> */}
 			<SansCanvas/>
+      <SideMenu />
 			</div>
 		</>
 	);
