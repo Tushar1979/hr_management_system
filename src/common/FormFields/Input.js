@@ -1,31 +1,16 @@
 import React, { useState } from 'react'
 
-export const Input = ({placeholder, maxLength, minLength, isRequired}) => {
+export const Input = ({sendData, name}) => {
+    const [ipVal, setIpVal] = useState("");
 
-    const [userInput, setUserInput] = useState();
-    const [error, setError] = useState("");
-    const handleInput=(e)=>{
-        if(e.target.value===""){
-            console.log("is req");
-            setError("Required Field");
-        }else{
-            console.log(e.target.value);
-            setUserInput(e.target.value);
-        }
-    }
-
-    const renderError=()=>{
-        if(error==="") return null;
-        return(
-            <div>{error}</div>
-        )
+    const handleChange = (e)=>{
+      setIpVal(e.target.value);
     }
   
 
   return (
     <div>
-        <input type="text" placeholder={placeholder} onBlur={(e)=>handleInput(e)} onChange={()=>setError("")} maxLength={maxLength} minLength={minLength}/>
-        {renderError()}
+        <input type="text"  onBlur={(e)=>{handleChange(e)}} name={name}/>
     </div>
   )
 }

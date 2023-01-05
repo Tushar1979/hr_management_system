@@ -7,7 +7,7 @@ import Employee2 from '../../../assets/images/em2.png'
 import { PageHeader } from "../../../common/PageHeader"
 export const CurrentEmp = () => {
     const searchSchema = {
-        placeholder :"searchh"
+        placeholder :"Search Employee"
     }
     const empRecord = [
         {
@@ -94,10 +94,11 @@ export const CurrentEmp = () => {
               <div className="my-3">
                 <PageHeader pageheading={`Current employee (${empRecord.length})`}/>
               </div>
-              
-              <SearchBar schema={searchSchema}/>
               <div className="d-flex">
-                  <EmpCard empData ={empRecord}/>
+                  <div className="mt-3">
+                    <SearchBar schema={searchSchema}/>
+                    <EmpCard empData ={empRecord}/>
+                  </div>
                   <div className="mt-5 ms-3"> 
                     <EventCard title="Pending information" renderBody={()=>renderBody(eventList)}/>
                     <EventCard title="Pending information" renderBody={()=>renderBody(documentApprove)}/>

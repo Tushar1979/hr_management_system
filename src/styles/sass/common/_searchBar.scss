@@ -1,13 +1,17 @@
 @import "../core/allCore";
 
 .SearchBarWrapper{
-@include defaultButton;
-
+    max-width: 495px;
+    border-radius: 50px;
+    margin: 0 auto;
+    border: none !important;
+    box-shadow: 0 0 8px rgb(0 0 0 / 23%);
+    border-radius: 50px !important;
 input{
     outline: none;
     border: unset;
     min-width: 420px;
-
+    padding-left:20px ;
 }
 
 }

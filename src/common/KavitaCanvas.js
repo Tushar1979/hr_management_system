@@ -16,7 +16,7 @@ import { EmpCard } from '../services/hradmin/detail/EmployeeCard';
 import { CurrentEmp } from '../services/hradmin/detail/CurrentEmployee';
 
 
-export const KavitaCanvas = () => {
+const KavitaCanvas = () => {
   const renderBody=()=>{
     return(
         <div>30 June 2022</div>
@@ -39,3 +39,6 @@ return (
 </>
 );
 }
+
+
+export default KavitaCanvas;

@@ -14,9 +14,9 @@ import {
 	useLocation,
 } from "react-router-dom";
 import Layout from "./common/Layout";
-import { KavitaCanvas } from "./common/KavitaCanvas";
-import { NishaCanvas } from "./common/NishaCanvas";
-import { Leave } from "./services/employee/leave/Leave";
+import  KavitaCanvas  from "./common/KavitaCanvas";
+import  NishaCanvas  from "./common/NishaCanvas";
+import  Leave  from "./services/employee/leave/Leave";
 
 function App() {
 	return (

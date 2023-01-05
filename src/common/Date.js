@@ -1,11 +1,14 @@
-export function Dateform() {
+import React from "react";
+export function Dateform(props) {
     return (
         <>
             <div className="date-wrap">
-                <label className="d-block">Event Date</label>
-                <label>Form</label>
-                <input type="date" />
+                <label className="d-flex">{props.titlelabel}</label>
+                <div className="main-label">
+                    <label className="form-label">{props.formlabel}</label>
+                    <input type="date" />
+                </div>
             </div>
         </>
-    )
+    );
 }
