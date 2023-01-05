@@ -180,21 +180,21 @@ body {
 }
 
 .SideMenuWrapper {
-  max-width: 300px;
+  max-width: 280px;
   width: 100%;
 }
 .SideMenuWrapper.wraped {
-  width: 70px;
-  margin-right: 20px;
+  max-width: 70px;
 }
 .SideMenuWrapper aside {
   background-color: #EDEEEE;
-  max-width: 320px;
+  max-width: 280px;
   height: 100vh;
   transition: all 0.3s;
   overflow-x: hidden;
   position: fixed;
   top: 70px;
+  width: 100%;
 }
 .SideMenuWrapper aside .subMenuIcon {
   position: absolute;
@@ -877,6 +877,13 @@ h4 {
   font-size: 16px;
 }
 
+.CurrentEmp .eventList {
+  padding: 30px 20px !important;
+}
+.CurrentEmp .eventList li {
+  margin-bottom: 15px;
+}
+
 * {
   transition: all 0.2s;
 }
@@ -908,21 +915,21 @@ body {
 }
 
 .SideMenuWrapper {
-  max-width: 300px;
+  max-width: 280px;
   width: 100%;
 }
 .SideMenuWrapper.wraped {
-  width: 70px;
-  margin-right: 20px;
+  max-width: 70px;
 }
 .SideMenuWrapper aside {
   background-color: #EDEEEE;
-  max-width: 320px;
+  max-width: 280px;
   height: 100vh;
   transition: all 0.3s;
   overflow-x: hidden;
   position: fixed;
   top: 70px;
+  width: 100%;
 }
 .SideMenuWrapper aside .subMenuIcon {
   position: absolute;

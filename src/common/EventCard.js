@@ -17,8 +17,7 @@ import React from 'react'
 
 export const EventCard = ({title, renderBody}) => {
   return (
-    <div className='EventCardWrapper'>
-
+    <div className='EventCardWrapper mb-4'>
         <div className='heading'>{title}</div>
         {renderBody()}
     </div>

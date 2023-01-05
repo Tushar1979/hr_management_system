@@ -4,6 +4,7 @@ import { EmpCard } from "./EmployeeCard"
 import { EventCard } from "../../../common/EventCard"
 import Employee1 from '../../../assets/images/em1.png'
 import Employee2 from '../../../assets/images/em2.png'
+import { PageHeader } from "../../../common/PageHeader"
 export const CurrentEmp = () => {
     const searchSchema = {
         placeholder :"searchh"
@@ -58,6 +59,7 @@ export const CurrentEmp = () => {
           image : Employee2,
         },
     ]
+    console.log(empRecord.length)
     // for event card object
     const eventList = [
       "Meaghan Cpmpigotto",
@@ -65,14 +67,21 @@ export const CurrentEmp = () => {
       "Meaghan Cpmpigotto",
       "Meaghan Cpmpigotto"
     ]
+    const documentApprove = [
+      "request-for-approval",
+      "request-for-approval",
+      "request-for-approval",
+      "request-for-approval"
+    ]
 
-    const renderBody=()=>{
+    const renderBody=(arr)=>{
+      // console.log(arr)
       return(
         <>
           {
            <ul className="eventList">
               {
-                eventList.map((data)=> <li>{data}</li>)
+                arr.map((data)=> <li>{data}</li>)
               }
            </ul>
           }
@@ -81,11 +90,19 @@ export const CurrentEmp = () => {
   }
     return(
         <>
-            
-            <SearchBar schema={searchSchema}/>
-            <div>
-                <EmpCard empData ={empRecord}/>
-                <EventCard title="Pending information" renderBody={renderBody}/>
+            <div class="CurrentEmp pageBody">
+              <div className="my-3">
+                <PageHeader pageheading={`Current employee (${empRecord.length})`}/>
+              </div>
+              
+              <SearchBar schema={searchSchema}/>
+              <div className="d-flex">
+                  <EmpCard empData ={empRecord}/>
+                  <div className="mt-5 ms-3"> 
+                    <EventCard title="Pending information" renderBody={()=>renderBody(eventList)}/>
+                    <EventCard title="Pending information" renderBody={()=>renderBody(documentApprove)}/>
+                  </div>
+              </div>
             </div>
         </>
     )

@@ -33,7 +33,7 @@ export const EmpCard = ({empData}) => {
         console.log(data)
         return(
             <>
-                <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                     <div className="empCard">
                         <div className="empImage">
                             <img src={data.image}/>

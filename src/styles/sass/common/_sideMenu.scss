@@ -23,20 +23,21 @@ ul{
     margin: 0;
   }
 .SideMenuWrapper{
-    max-width: 300px;
+    max-width: 280px;
     width: 100%;
     &.wraped{
-        width: 70px;
-        margin-right: 20px;
+        max-width: 70px;
+       
     }
     aside{
         background-color: #EDEEEE;
-        max-width: 320px;
+        max-width: 280px;
         height: 100vh;
         transition: all 0.3s;
         overflow-x: hidden;
         position: fixed;
         top: 70px;
+        width: 100%;
         .subMenuIcon{
             position: absolute;
             right: 10px;
