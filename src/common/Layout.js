@@ -95,7 +95,7 @@ const Layout = () => {
           <Navbar/>
             <div className='d-flex '>
              <SideMenu listMenu={sideItem}/>
-             <div>
+             <div className='w-100'>
                 <Outlet />
              </div>
          </div>

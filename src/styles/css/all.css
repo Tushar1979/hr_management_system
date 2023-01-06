@@ -223,8 +223,7 @@ body {
   max-width: 70px;
 }
 .SideMenuWrapper aside.collapsed li span {
-  position: relative;
-  z-index: -1;
+  opacity: 0;
 }
 .SideMenuWrapper aside.collapsed .subMenuIcon {
   display: none;
@@ -1078,8 +1077,7 @@ body {
   max-width: 70px;
 }
 .SideMenuWrapper aside.collapsed li span {
-  position: relative;
-  z-index: -1;
+  opacity: 0;
 }
 .SideMenuWrapper aside.collapsed .subMenuIcon {
   display: none;
@@ -1147,6 +1145,39 @@ body {
 }
 .custom-scroll:hover ::-webkit-scrollbar-thumb, .custom-scroll:hover ::-webkit-scrollbar, .custom-scroll:hover ::-webkit-scrollbar-track {
   visibility: visible;
+}
+
+.ContextMenu .context-list {
+  padding: 15px 4px !important;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.231372549);
+  max-width: 170px;
+  min-width: 150px;
+}
+.ContextMenu .context-list li a {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+.ContextMenu .context-list li a span {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 500;
+}
+.ContextMenu .context-list li a:hover {
+  background-color: #05454E;
+}
+.ContextMenu .context-list li a:hover span {
+  color: #ffffff;
+}
+.ContextMenu .context-list li img {
+  width: 24px;
+}
+.ContextMenu .dotIcon {
+  width: 30px;
 }
 
 .pageBody {

@@ -14,7 +14,8 @@ import Employee1 from '../assets/images/em1.png'
 import Employee2 from '../assets/images/em2.png'
 import { EmpCard } from '../services/hradmin/detail/EmployeeCard';
 import { CurrentEmp } from '../services/hradmin/detail/CurrentEmployee';
-
+import Form, { ContextMenu } from './ContextMenu';
+import Notification from "../assets/images/notification.svg"
 
 const KavitaCanvas = () => {
   const renderBody=()=>{
@@ -22,7 +23,28 @@ const KavitaCanvas = () => {
         <div>30 June 2022</div>
     )
 }
-
+const contextData = [
+  {
+      item:"view all",
+      path: 'view',
+      icon: Notification,
+  },
+  {
+      item:"view all",
+      path: 'view',
+      icon: Notification,
+  },
+  {
+      item:"view all",
+      path: 'view',
+      icon: Notification,
+  },
+  {
+      item:"view all",
+      path: 'view',
+      icon: Notification,
+  },
+]
  
 
 return (
@@ -36,6 +58,7 @@ return (
     <input id="end" value="06:30" /> */}
     {/* <input id="diff" /> */}
     <CurrentEmp />
+    {/* <ContextMenu  contextData={contextData}/> */}
 </>
 );
 }

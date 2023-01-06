@@ -7,7 +7,7 @@ import Employee2 from '../../../assets/images/em2.png'
 import { PageHeader } from "../../../common/PageHeader"
 export const CurrentEmp = () => {
     const searchSchema = {
-        placeholder :"Search Employee"
+        placeHolder :"Search Employee"
     }
     const empRecord = [
         {
@@ -73,7 +73,6 @@ export const CurrentEmp = () => {
       "request-for-approval",
       "request-for-approval"
     ]
-
     const renderBody=(arr)=>{
       // console.log(arr)
       return(

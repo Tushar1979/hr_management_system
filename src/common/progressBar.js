@@ -14,7 +14,7 @@ const ProgressBar = ( {inTime}) => {
     // console.log(currentTime)
     const fillerStyles = {
       height: '100%',
-      width: `${worksHours}%`,
+      width: "60%",
       backgroundColor: "#05454E",
       borderRadius:50,
     }

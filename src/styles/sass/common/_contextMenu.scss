@@ -1,0 +1,36 @@
+.ContextMenu{
+    .context-list{
+        padding: 15px 4px !important;
+        background-color: $white-color;
+        border-radius: 8px;
+        box-shadow: 0 0 8px #0000003b;
+        max-width: 170px;
+        min-width: 150px;
+        li{
+            a{
+                display: flex;
+                align-items: center;
+                column-gap: 15px;
+                padding: 8px 20px;
+                border-radius: 5px;
+                span{
+                    font-size: 16px;
+                    color: $black-color;
+                    font-weight: 500;
+                }
+                &:hover{
+                    background-color: $main-color;
+                    span{
+                        color: $white-color;
+                    }
+                }
+            }
+            img{
+                width: 24px;
+            }
+        }
+    }
+    .dotIcon{
+        width: 30px;
+    }
+}
