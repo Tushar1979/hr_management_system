@@ -24,7 +24,8 @@ import Payslips from './services/employee/Payslips';
 import TeamTree from './services/employee/TeamTree';
 import Reimbursements from './services/employee/Reimbursements';
 import Rewards from './services/employee/Rewards';
-
+import MyCanvas from './assets/MyCanvas';
+import Payslipdetails from './common/Payslipdetails';
 function App() {
 	return (
 		<>
@@ -52,7 +53,9 @@ function App() {
 							<Route path="canvas">
 								<Route path="sans" element={<SansCanvas />} />
 								<Route path="kavi" element={<KavitaCanvas />} />
-								<Route path="nisha" element={<NishaCanvas />} />
+								<Route path="nisha" element={<NishaCanvas />}/>
+								<Route path='MyCanvas' element={<MyCanvas/>}/>
+							    <Route path='Payslipdetails' element={<Payslipdetails/>}/>
 							</Route>
 						</Route>
 					</Routes>
