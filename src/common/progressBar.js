@@ -22,7 +22,7 @@ const ProgressBar = ( {inTime}) => {
     const calculator = () => {
      const workHours = currentTime - inTime;
     //  console.log(workHours);
-     const totalHour = (workHours/9)*100;
+     const totalHour = (workHours/15)*100;
      console.log(totalHour,workHours,inTime, 'ghd')
      setWorksHours(totalHour)
     //  setWorksHours(totalHour)

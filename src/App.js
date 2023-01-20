@@ -26,6 +26,9 @@ import OrgCalendar from "./services/employee/OrgCalendar";
 import Policies from "./services/employee/Policies";
 import PgTeamTree from "./services/employee/teamtree/PgTeamTree";
 import HrLeave from "./services/hradmin/HrLeave";
+import WfhRequest from "./services/hradmin/attendance/WfhRequest";
+import Archived from "./services/hradmin/people/ArchivedRecord";
+import NewEmployee from "./services/hradmin/people/NewEmployeeRecord";
 
 function App() {
 	return (
@@ -55,14 +58,14 @@ function App() {
 								<Route path="people">
 									<Route path="current" element={<PgCurrentEmployeeList />} />
 									<Route path="current/:id" element={<PgProfileDetail />} />
-									<Route path="new" element={<PgCurrentEmployeeList />} />
+									<Route path="new" element={ <NewEmployee /> } />
 									<Route path="teamtree" element={<PgCurrentEmployeeList />} />
-									<Route path="archieved" element={<PgCurrentEmployeeList />} />
+									<Route path="archieved" element={ <Archived /> } />
 								</Route>
 								<Route path="attendance">
 									<Route path="attendance" element={<MonthWiseAttendance />} />
 									<Route path="leaves" element={<HrLeave/>} />
-									<Route path="wfh" element={<Leave />} />
+									<Route path="wfh" element={ <WfhRequest/> } />
 								</Route>
 								<Route path="financials">
 									<Route path="payrolls" element={<MonthWiseAttendance />} />

@@ -128,75 +128,6 @@ button,
   margin: 16px 0px;
 }
 
-.action-btn {
-  display: flex;
-  column-gap: 10px;
-}
-
-.approve-btn,
-.pending-btn,
-.reject-btn {
-  background-color: transparent;
-  border: 1px solid #000000;
-  border-radius: 8px;
-  color: #0F9C48;
-  min-width: 125px;
-  height: 33px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-}
-.approve-btn:hover,
-.pending-btn:hover,
-.reject-btn:hover {
-  color: #0F9C48;
-}
-
-.pending-btn {
-  color: #4547b1;
-}
-.pending-btn:hover {
-  color: #4547b1;
-}
-
-.reject-btn {
-  color: #f20f47;
-}
-.reject-btn:hover {
-  color: #f20f47;
-}
-
-.approve,
-.pending-action,
-.reject {
-  background-color: #1CBA0E;
-  border: 1px solid #009747;
-  border-radius: 8px;
-  color: #ffffff;
-  min-width: 125px;
-  height: 33px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-}
-.approve:hover,
-.pending-action:hover,
-.reject:hover {
-  color: #ffffff;
-}
-
-.reject {
-  background-color: #FF0000;
-  border: 1px solid #E50E0E;
-}
-
-.pending-action {
-  background-color: #4547b1;
-  border: 1px solid #4547b1;
-}
-
 .defaultButtonPrimary {
   border: 1px solid #777777;
   border-radius: 8px;
@@ -284,75 +215,6 @@ button,
   display: flex;
   justify-content: flex-end;
   margin: 16px 0px;
-}
-
-.action-btn {
-  display: flex;
-  column-gap: 10px;
-}
-
-.approve-btn,
-.pending-btn,
-.reject-btn {
-  background-color: transparent;
-  border: 1px solid #000000;
-  border-radius: 8px;
-  color: #0F9C48;
-  min-width: 125px;
-  height: 33px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-}
-.approve-btn:hover,
-.pending-btn:hover,
-.reject-btn:hover {
-  color: #0F9C48;
-}
-
-.pending-btn {
-  color: #4547b1;
-}
-.pending-btn:hover {
-  color: #4547b1;
-}
-
-.reject-btn {
-  color: #f20f47;
-}
-.reject-btn:hover {
-  color: #f20f47;
-}
-
-.approve,
-.pending-action,
-.reject {
-  background-color: #1CBA0E;
-  border: 1px solid #009747;
-  border-radius: 8px;
-  color: #ffffff;
-  min-width: 125px;
-  height: 33px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-}
-.approve:hover,
-.pending-action:hover,
-.reject:hover {
-  color: #ffffff;
-}
-
-.reject {
-  background-color: #FF0000;
-  border: 1px solid #E50E0E;
-}
-
-.pending-action {
-  background-color: #4547b1;
-  border: 1px solid #4547b1;
 }
 
 h1,
@@ -742,75 +604,6 @@ body {
   margin: 16px 0px;
 }
 
-.action-btn {
-  display: flex;
-  column-gap: 10px;
-}
-
-.approve-btn,
-.pending-btn,
-.reject-btn {
-  background-color: transparent;
-  border: 1px solid #000000;
-  border-radius: 8px;
-  color: #0F9C48;
-  min-width: 125px;
-  height: 33px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-}
-.approve-btn:hover,
-.pending-btn:hover,
-.reject-btn:hover {
-  color: #0F9C48;
-}
-
-.pending-btn {
-  color: #4547b1;
-}
-.pending-btn:hover {
-  color: #4547b1;
-}
-
-.reject-btn {
-  color: #f20f47;
-}
-.reject-btn:hover {
-  color: #f20f47;
-}
-
-.approve,
-.pending-action,
-.reject {
-  background-color: #1CBA0E;
-  border: 1px solid #009747;
-  border-radius: 8px;
-  color: #ffffff;
-  min-width: 125px;
-  height: 33px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-}
-.approve:hover,
-.pending-action:hover,
-.reject:hover {
-  color: #ffffff;
-}
-
-.reject {
-  background-color: #FF0000;
-  border: 1px solid #E50E0E;
-}
-
-.pending-action {
-  background-color: #4547b1;
-  border: 1px solid #4547b1;
-}
-
 h1,
 h2,
 h3,
@@ -1152,75 +945,6 @@ header .col-20 {
   margin: 16px 0px;
 }
 
-.action-btn {
-  display: flex;
-  column-gap: 10px;
-}
-
-.approve-btn,
-.pending-btn,
-.reject-btn {
-  background-color: transparent;
-  border: 1px solid #000000;
-  border-radius: 8px;
-  color: #0F9C48;
-  min-width: 125px;
-  height: 33px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-}
-.approve-btn:hover,
-.pending-btn:hover,
-.reject-btn:hover {
-  color: #0F9C48;
-}
-
-.pending-btn {
-  color: #4547b1;
-}
-.pending-btn:hover {
-  color: #4547b1;
-}
-
-.reject-btn {
-  color: #f20f47;
-}
-.reject-btn:hover {
-  color: #f20f47;
-}
-
-.approve,
-.pending-action,
-.reject {
-  background-color: #1CBA0E;
-  border: 1px solid #009747;
-  border-radius: 8px;
-  color: #ffffff;
-  min-width: 125px;
-  height: 33px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-}
-.approve:hover,
-.pending-action:hover,
-.reject:hover {
-  color: #ffffff;
-}
-
-.reject {
-  background-color: #FF0000;
-  border: 1px solid #E50E0E;
-}
-
-.pending-action {
-  background-color: #4547b1;
-  border: 1px solid #4547b1;
-}
-
 h1,
 h2,
 h3,
@@ -1492,75 +1216,6 @@ button,
   display: flex;
   justify-content: flex-end;
   margin: 16px 0px;
-}
-
-.action-btn {
-  display: flex;
-  column-gap: 10px;
-}
-
-.approve-btn,
-.pending-btn,
-.reject-btn {
-  background-color: transparent;
-  border: 1px solid #000000;
-  border-radius: 8px;
-  color: #0F9C48;
-  min-width: 125px;
-  height: 33px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-}
-.approve-btn:hover,
-.pending-btn:hover,
-.reject-btn:hover {
-  color: #0F9C48;
-}
-
-.pending-btn {
-  color: #4547b1;
-}
-.pending-btn:hover {
-  color: #4547b1;
-}
-
-.reject-btn {
-  color: #f20f47;
-}
-.reject-btn:hover {
-  color: #f20f47;
-}
-
-.approve,
-.pending-action,
-.reject {
-  background-color: #1CBA0E;
-  border: 1px solid #009747;
-  border-radius: 8px;
-  color: #ffffff;
-  min-width: 125px;
-  height: 33px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-}
-.approve:hover,
-.pending-action:hover,
-.reject:hover {
-  color: #ffffff;
-}
-
-.reject {
-  background-color: #FF0000;
-  border: 1px solid #E50E0E;
-}
-
-.pending-action {
-  background-color: #4547b1;
-  border: 1px solid #4547b1;
 }
 
 h1,
@@ -1847,75 +1502,6 @@ header .col-20 {
   display: flex;
   justify-content: flex-end;
   margin: 16px 0px;
-}
-
-.action-btn {
-  display: flex;
-  column-gap: 10px;
-}
-
-.approve-btn,
-.pending-btn,
-.reject-btn {
-  background-color: transparent;
-  border: 1px solid #000000;
-  border-radius: 8px;
-  color: #0F9C48;
-  min-width: 125px;
-  height: 33px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-}
-.approve-btn:hover,
-.pending-btn:hover,
-.reject-btn:hover {
-  color: #0F9C48;
-}
-
-.pending-btn {
-  color: #4547b1;
-}
-.pending-btn:hover {
-  color: #4547b1;
-}
-
-.reject-btn {
-  color: #f20f47;
-}
-.reject-btn:hover {
-  color: #f20f47;
-}
-
-.approve,
-.pending-action,
-.reject {
-  background-color: #1CBA0E;
-  border: 1px solid #009747;
-  border-radius: 8px;
-  color: #ffffff;
-  min-width: 125px;
-  height: 33px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-}
-.approve:hover,
-.pending-action:hover,
-.reject:hover {
-  color: #ffffff;
-}
-
-.reject {
-  background-color: #FF0000;
-  border: 1px solid #E50E0E;
-}
-
-.pending-action {
-  background-color: #4547b1;
-  border: 1px solid #4547b1;
 }
 
 h1,
@@ -2344,75 +1930,6 @@ button,
   margin: 16px 0px;
 }
 
-.action-btn {
-  display: flex;
-  column-gap: 10px;
-}
-
-.approve-btn,
-.pending-btn,
-.reject-btn {
-  background-color: transparent;
-  border: 1px solid #000000;
-  border-radius: 8px;
-  color: #0F9C48;
-  min-width: 125px;
-  height: 33px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-}
-.approve-btn:hover,
-.pending-btn:hover,
-.reject-btn:hover {
-  color: #0F9C48;
-}
-
-.pending-btn {
-  color: #4547b1;
-}
-.pending-btn:hover {
-  color: #4547b1;
-}
-
-.reject-btn {
-  color: #f20f47;
-}
-.reject-btn:hover {
-  color: #f20f47;
-}
-
-.approve,
-.pending-action,
-.reject {
-  background-color: #1CBA0E;
-  border: 1px solid #009747;
-  border-radius: 8px;
-  color: #ffffff;
-  min-width: 125px;
-  height: 33px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-}
-.approve:hover,
-.pending-action:hover,
-.reject:hover {
-  color: #ffffff;
-}
-
-.reject {
-  background-color: #FF0000;
-  border: 1px solid #E50E0E;
-}
-
-.pending-action {
-  background-color: #4547b1;
-  border: 1px solid #4547b1;
-}
-
 h1,
 h2,
 h3,
@@ -2574,13 +2091,7 @@ button,
   display: flex;
   flex-wrap: wrap;
 }
-
-.LoopWrapperCardCurrentEmp {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.CardCurrentEmpWrapper {
+.PageCurrentEmpList .LoopWrapperCardCurrentEmp .CardCurrentEmpWrapper {
   position: relative;
   background: #ffffff;
   padding: 40px 20px;
@@ -2591,54 +2102,30 @@ button,
   min-width: 320px;
   margin: 64px 24px 0px 0px;
 }
-.CardCurrentEmpWrapper .empImage {
+.PageCurrentEmpList .LoopWrapperCardCurrentEmp .CardCurrentEmpWrapper .empImage {
   position: absolute;
   top: -40px;
   left: 50%;
   transform: translate(-50%);
 }
-.CardCurrentEmpWrapper img {
+.PageCurrentEmpList .LoopWrapperCardCurrentEmp .CardCurrentEmpWrapper img {
   width: 80px;
   height: 80px;
   border-radius: 50px;
   outline: 4px solid #05454E;
   outline-offset: 4px;
 }
-.CardCurrentEmpWrapper .cardHeading {
+.PageCurrentEmpList .LoopWrapperCardCurrentEmp .CardCurrentEmpWrapper .cardHeading {
   font-size: 20px;
   color: #000000;
   margin: 16px 0 5px;
   display: inline-block;
-  text-transform: capitalize;
 }
-.CardCurrentEmpWrapper h4 {
+.PageCurrentEmpList .LoopWrapperCardCurrentEmp .CardCurrentEmpWrapper h4 {
   font-size: 16px;
-  color: #000000;
-  text-transform: capitalize;
 }
-.CardCurrentEmpWrapper p {
+.PageCurrentEmpList .LoopWrapperCardCurrentEmp .CardCurrentEmpWrapper p {
   font-size: 16px;
-  color: #555555;
-}
-.CardCurrentEmpWrapper span {
-  font-size: 16px;
-  color: #555555;
-  display: block;
-}
-
-.archivedrecord .archieve-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.filter-drop {
-  display: flex;
-  column-gap: 15px;
-}
-
-.newemployeeapprove {
-  display: flex;
 }
 
 * {

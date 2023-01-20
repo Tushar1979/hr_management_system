@@ -3,6 +3,7 @@ import { FormProcessor } from '../../common/FormFields/FormProcessor';
 import { PageHeader } from '../../common/PageHeader';
 import { SearchBar } from '../../common/SearchBar';
 import CollectionList from '../../common/table/CollectionList';
+import TableAction from './attendance/TableAction';
 
 const HrLeave = () => {
 
@@ -26,10 +27,9 @@ const HrLeave = () => {
 
   const customRender = () => {
 
-    return (<div className='d-flex'>
-    <div className="approvedBtn me-5">Approve</div>
-    <div className="declinedBtn">Decline</div>
-    </div>)
+    return (
+      <TableAction />
+    )
 
   };
   

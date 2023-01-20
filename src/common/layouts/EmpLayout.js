@@ -81,7 +81,7 @@ const EmpLayout = () => {
           <Navbar/>
             <div className='d-flex '>
              <SideMenu listMenu={sideItem}/>
-             <div>
+             <div className='dashboard-body'>
                 <Outlet />
              </div>
          </div>

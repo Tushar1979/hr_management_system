@@ -1,11 +1,11 @@
 /*
 const empRecord = [
-    {
-      name: "kavita",
-      designation : "software engineer",
-      team : "frontend team",
-      image : Employee1
-    },
+	{
+	  name: "kavita",
+	  designation : "software engineer",
+	  team : "frontend team",
+	  image : Employee1
+	},
 ]
 <CardCurrentEmp data ={empRecord} />
 */
@@ -23,6 +23,11 @@ const CardCurrentEmp = ({ data }) => {
 						<div className="cardHeading">{data.name}</div>
 						<h4>{data.designation}</h4>
 						<p>{data.team}</p>
+						<span>{data.date}</span>
+						<div className="newemployeeapprove">
+							<span>{data.crossimg}</span>
+							<span>{data.rightimg}</span>
+						</div>
 					</div>
 				</Link>
 			</div>
