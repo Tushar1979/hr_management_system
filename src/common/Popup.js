@@ -1,3 +1,5 @@
+/* <Popup schema={modalschema} show={show} /> */
+
 import React, { useState } from "react";
 import OutsideClickHandler from "./OutsideClickHandler";
 
@@ -76,6 +78,7 @@ const Popup = ({ schema, show, onClose }) => {
                 </div>
 
             </OutsideClickHandler>
+            <button>jkxfhjkdj</button>
         </>
     );
 };

@@ -1,5 +1,12 @@
-.EmpCard{
-    .empCard{
+
+    .PageCurrentEmpList{
+         display: flex;
+        .LoopWrapperCardCurrentEmp{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }}
+    .CardCurrentEmpWrapper{
         position: relative;
         background: $white-color;
         padding: 40px 20px;
@@ -7,6 +14,8 @@
         border-radius: 8px;
         text-align: center;
         box-shadow: 0 0 8px #0000003b;
+        min-width: 320px;
+        margin: 64px 24px 0px 0px;
         .empImage{
             position: absolute;
             top: -40px;
@@ -33,4 +42,3 @@
             font-size: 16px;
         }
     }
-}

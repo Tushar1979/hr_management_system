@@ -98,7 +98,7 @@ export const MonthWiseAttendance = () => {
 			return(<><SearchBar schema={searchBarSchema}/></>)
 		};
 		const renderDepartmentFilter = () => {
-			return(<><DropDown schema={dropDownSchemaDepartment}/></>)
+			return(<><DropDown schema={dropDownSchemaDepartment} /></>)
 		};
 		const renderEmployeeFilter = () => {
 			return(<><DropDown schema={dropDownSchemaEmployees}/></>)
