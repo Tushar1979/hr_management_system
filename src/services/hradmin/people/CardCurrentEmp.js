@@ -10,10 +10,24 @@ const empRecord = [
 <CardCurrentEmp data ={empRecord} />
 */
 
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Cross from "../../../assets/images/cross.svg";
+import Right from "../../../assets/images/right.svg";
 
-const CardCurrentEmp = ({ data }) => {
+const CardCurrentEmp = ({ data, schema }) => {
+	const renderapprovereject = () => {
+		// const [buttons, setButtons] = useState(false);
+		if(!schema)
+		return (
+			<>
+				<div className="newemployeeapprove">
+					<span><img src={Cross} /></span>
+					<span><img src={Right} /></span>
+				</div>
+			</>
+		)
+	}
 	return (
 		<>
 			<div className="CardCurrentEmpWrapper">
@@ -23,11 +37,9 @@ const CardCurrentEmp = ({ data }) => {
 						<div className="cardHeading">{data.name}</div>
 						<h4>{data.designation}</h4>
 						<p>{data.team}</p>
+						<h5>{data.email}</h5>
 						<span>{data.date}</span>
-						<div className="newemployeeapprove">
-							<span>{data.crossimg}</span>
-							<span>{data.rightimg}</span>
-						</div>
+						{renderapprovereject()}
 					</div>
 				</Link>
 			</div>

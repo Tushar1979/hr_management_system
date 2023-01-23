@@ -566,11 +566,11 @@ body {
 }
 .SideMenuWrapper aside {
   background-color: #EDEEEE;
-  max-width: 320px;
   height: 100vh;
+  width: 100%;
   transition: all 0.3s;
   overflow-x: hidden;
-  position: fixed;
+  position: sticky;
   top: 70px;
 }
 .SideMenuWrapper aside .subMenuIcon {
@@ -2596,8 +2596,6 @@ button,
   top: -40px;
   left: 50%;
   transform: translate(-50%);
-}
-.CardCurrentEmpWrapper img {
   width: 80px;
   height: 80px;
   border-radius: 50px;
@@ -2615,6 +2613,10 @@ button,
   font-size: 16px;
   color: #000000;
   text-transform: capitalize;
+}
+.CardCurrentEmpWrapper h5 {
+  font-size: 20px;
+  color: #000000;
 }
 .CardCurrentEmpWrapper p {
   font-size: 16px;
@@ -2639,8 +2641,19 @@ button,
 
 .newemployeeapprove {
   display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  margin-top: 15px;
 }
-
+.newemployeeapprove span {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  border-radius: 50px;
+}
 * {
   transition: all 0.2s;
 }
@@ -2680,11 +2693,11 @@ body {
 }
 .SideMenuWrapper aside {
   background-color: #EDEEEE;
-  max-width: 320px;
   height: 100vh;
+  width: 100%;
   transition: all 0.3s;
   overflow-x: hidden;
-  position: fixed;
+  position: sticky;
   top: 70px;
 }
 .SideMenuWrapper aside .subMenuIcon {

@@ -28,14 +28,19 @@
         top: -40px;
         left: 50%;
         transform: translate(-50%);
-    }
-
-    img {
         width: 80px;
         height: 80px;
         border-radius: 50px;
         outline: 4px solid $main-color;
         outline-offset: 4px;
+    }
+
+    img {
+        // width: 80px;
+        // height: 80px;
+        // border-radius: 50px;
+        // outline: 4px solid $main-color;
+        // outline-offset: 4px;
     }
 
     .cardHeading {
@@ -50,6 +55,11 @@
         font-size: 16px;
         color: $black-color;
         text-transform: capitalize;
+    }
+
+    h5 {
+        font-size: 20px;
+        color: $black-color;
     }
 
     p {
@@ -71,10 +81,27 @@
         align-items: center;
     }
 }
-.filter-drop{
+
+.filter-drop {
     display: flex;
     column-gap: 15px;
 }
-.newemployeeapprove{
+
+.newemployeeapprove {
     display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 15px;
+
+    span {
+        width: 45px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        border-radius: 50px;
+
+        img {}
+    }
 }

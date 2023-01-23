@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import CustomTable from "../../../common/AgTable/AgTable";
 import { FormProcessor } from "../../../common/FormFields/FormProcessor";
 import { PageHeader } from "../../../common/PageHeader";
 import CollectionList from "../../../common/table/CollectionList";
@@ -123,7 +124,7 @@ const Leave = () => {
 			</button>
 		
 			</div>	
-			<CollectionList schema={tableSchema}/>
+			{/* <CollectionList schema={tableSchema}/> */}
 
 		</>)
 	}
@@ -142,10 +143,56 @@ const Leave = () => {
 		);
 	};
 
+	// const RowData = [
+	// 	{make: "Toyota", model: "Celica", price: 35000},
+	// 	{make: "Ford", model: "Mondeo", price: 32000},
+	// 	{make: "Porsche", model: "Boxster", price: 72000}
+	// ];
+	// const RowData = [
+	// 	{datetime: '16/1/23 : 12:34 PM', dateFrom: '16/1/23', dateTo: '18/1/23', noOfDays: '2', reason: 'Family Function', typeOfLeave:'Planned Leave', Status: 'pending'  },
+	// 	{datetime: '16/1/23 : 12:34 PM', dateFrom: '16/1/23', dateTo: '18/1/23', noOfDays: '2', reason: 'Family Function', typeOfLeave:'Planned Leave', Status: 'pending'  },
+	// 	{datetime: '16/1/23 : 12:34 PM', dateFrom: '16/1/23', dateTo: '18/1/23', noOfDays: '2', reason: 'Family Function', typeOfLeave:'Planned Leave', Status: 'pending'  },
+	// 	{datetime: '16/1/23 : 12:34 PM', dateFrom: '16/1/23', dateTo: '18/1/23', noOfDays: '2', reason: 'Family Function', typeOfLeave:'Planned Leave', Status: 'pending'  },
+	// 	{datetime: '16/1/23 : 12:34 PM', dateFrom: '16/1/23', dateTo: '18/1/23', noOfDays: '2', reason: 'Family Function', typeOfLeave:'Planned Leave', Status: 'pending'  }
+	// ]
+	
+	// const columnData = [
+	// 	{ 
+	// 		field: 'datetime',
+	// 		headerName: 'Date Time'
+	// 	},
+	// 	{ 
+	// 		field: 'dateFrom',
+	// 		headerName: 'Date - From'
+	// 	},
+	// 	{ 
+	// 		field: 'dateTo',
+	// 		headerName: 'Date - To'
+	// 	},
+	// 	{ 
+	// 		field: 'noOfDays',
+	// 		headerName: 'Number of Days'
+	// 	},
+	// 	{ 
+	// 		field: 'reason',
+	// 		headerName: 'Reason'
+	// 	},
+	// 	{ 
+	// 		field: 'typeOfLeave',
+	// 		headerName: 'Type of Leave'
+	// 	},
+	// 	{ 
+	// 		field: 'Status',
+	// 		headerName: 'Status'
+	// 	}
+	// ]
+	// ["Date Time", "Date - From", "Date - To","Number of Days", "Reason", "Type of Leave",  "Status"]
 	return (
 		<div className="LeaveWrapper pageBody">
 			{renderLeaveRecord()}
 			{renderApplyNew()}
+			<CollectionList schema={tableSchema}/>
+			{/* <CustomTable schema={tableSchema}/> */}
 		</div>
 	);
 };
